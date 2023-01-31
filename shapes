@@ -1,0 +1,9 @@
+import turtle
+t1=turtle.Turtle()
+length=80
+for side in range(3,11):
+    angle=360//side
+    for i in range(1,side+1):
+        t1.forward(length)
+        t1.right(angle)
+turtle.mainloop()
